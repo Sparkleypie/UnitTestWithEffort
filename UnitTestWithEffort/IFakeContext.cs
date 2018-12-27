@@ -2,10 +2,10 @@
 
 namespace UnitTestWithEffort
 {
-    interface IFakeContext
+    public interface IFakeContext
     {
-        DbSet<Company> Companies { get; set; }
-        DbSet<Contact> Contacts { get; set; }
+        IDbSet<Company> Companies { get; set; }
+        IDbSet<Contact> Contacts { get; set; }
         int SaveChanges();
     }
 }
