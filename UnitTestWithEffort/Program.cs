@@ -12,7 +12,6 @@ namespace UnitTestWithEffort
         {
             var connection = Effort.DbConnectionFactory.CreateTransient();
 
-            using(var )
         }
     }
 }

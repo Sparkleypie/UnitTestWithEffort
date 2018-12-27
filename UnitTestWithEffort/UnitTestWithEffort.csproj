@@ -59,7 +59,11 @@
     <Compile Include="Company.cs" />
     <Compile Include="Contact.cs" />
     <Compile Include="EmployeeContext.cs" />
-    <Compile Include="IFakeContext.cs" />
+    <Compile Include="FakeCompanySet.cs" />
+    <Compile Include="FakeContactSet.cs" />
+    <Compile Include="FakeDbContext.cs" />
+    <Compile Include="FakeDbSet.cs" />
+    <Compile Include="Interfaces\IFakeContext.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
