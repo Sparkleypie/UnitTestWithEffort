@@ -10,6 +10,9 @@ namespace UnitTestWithEffort
     {
         static void Main(string[] args)
         {
+            var connection = Effort.DbConnectionFactory.CreateTransient();
+
+            using(var )
         }
     }
 }
