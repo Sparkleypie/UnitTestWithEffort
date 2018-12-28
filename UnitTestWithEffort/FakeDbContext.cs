@@ -7,8 +7,8 @@ namespace UnitTestWithEffort
     {
         public FakeDbContext()
         {
-            Companies = new FakeCompanySet();
-            Contacts = new FakeContactSet();
+            this.Companies = new FakeCompanySet();
+            this.Contacts = new FakeContactSet();
         }
 
         public IDbSet<Company> Companies { get; private set; }

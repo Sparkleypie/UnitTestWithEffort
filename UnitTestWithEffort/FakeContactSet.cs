@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq;
 
 namespace UnitTestWithEffort
 {
-    public class FakeContactSet : DbSet<Contact>
+    public class FakeContactSet : FakeDbSet<Contact>
     {
         public override Contact Find(params object[] keyValues)
         {
